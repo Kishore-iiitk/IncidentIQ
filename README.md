@@ -148,7 +148,8 @@ The project is built incrementally following strict quality gates:
 - [x] **Milestone 03**: Incident dataset ingestion pipeline (`feat(data): add incident dataset ingestion pipeline`)
 - [x] **Milestone 04**: Log ingestion pipeline (`feat(data): add log ingestion pipeline`)
 - [x] **Milestone 05**: PostgreSQL schema and pgvector migrations (`feat(db): add PostgreSQL schema and migrations`)
-- [ ] **Milestones 06–26**: Core APIs, Multimodal AI, RAG, Frontend Dashboard & Verification
+- [x] **Milestone 06**: Incident management REST APIs and lifecycle services (`feat(api): add incident management APIs`)
+- [ ] **Milestones 07–26**: Multimodal Evidence Upload, AI Analysis, RAG, Frontend Dashboard & Verification
 
 ---
 
