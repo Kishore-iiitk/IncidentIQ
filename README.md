@@ -146,7 +146,7 @@ The project is built incrementally following strict quality gates:
 - [x] **Milestone 01**: Project initialization, directory topology, baseline configurations (`chore: initialize incidentiq project`)
 - [x] **Milestone 02**: Architecture documentation and design specifications (`chore: add project architecture and documentation`)
 - [x] **Milestone 03**: Incident dataset ingestion pipeline (`feat(data): add incident dataset ingestion pipeline`)
-- [ ] **Milestone 04**: Log ingestion pipeline (`feat(data): add log ingestion pipeline`)
+- [x] **Milestone 04**: Log ingestion pipeline (`feat(data): add log ingestion pipeline`)
 - [ ] **Milestone 05**: PostgreSQL schema and pgvector migrations (`feat(db): add PostgreSQL schema and migrations`)
 - [ ] **Milestones 06–26**: Core APIs, Multimodal AI, RAG, Frontend Dashboard & Verification
 

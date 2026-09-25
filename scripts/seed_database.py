@@ -3,7 +3,6 @@ import json
 import logging
 from typing import Dict, Any, List, Optional
 import pandas as pd
-from incident_normalizer import infer_column_mapping, normalize_incident_row
 from generate_synthetic_data import SYNTHETIC_SCENARIOS
 
 logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(name)s: %(message)s")
