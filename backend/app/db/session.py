@@ -4,9 +4,8 @@ Provides async and sync session fixtures with clean mock fallback
 when external database drivers are running in standalone mode.
 """
 
-import os
 import logging
-from typing import AsyncGenerator, Optional
+from typing import Optional
 from ..config import settings
 
 logger = logging.getLogger("DatabaseSession")

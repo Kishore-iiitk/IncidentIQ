@@ -1,7 +1,7 @@
 import os
 import re
 import logging
-from typing import List, Dict, Any, Optional
+from typing import List, Dict, Any
 
 logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(name)s: %(message)s")
 logger = logging.getLogger("MigrationRunner")

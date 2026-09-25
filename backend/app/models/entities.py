@@ -11,7 +11,7 @@ import uuid
 
 try:
     from sqlalchemy import (
-        Column, String, Text, Boolean, Integer, Float, DateTime, ForeignKey, JSON
+        Column, String, Text, Boolean, Integer, Float, DateTime, ForeignKey
     )
     from sqlalchemy.dialects.postgresql import UUID, JSONB, ARRAY
     from sqlalchemy.orm import declarative_base, relationship
